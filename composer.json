@@ -1,0 +1,23 @@
+{
+  "name": "magefast-dragonfly/module-novaposhta-branch",
+  "minimum-stability": "dev",
+  "description": "Magento module. Shipping method Novaposhta Branch.\n",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magefast-dragonfly/module-novaposhta-basic": "*"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "magefast",
+      "email": "magefast@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {
+      "Dragonfly\\NovaposhtaBranch\\": ""
+    }
+  }
+}
